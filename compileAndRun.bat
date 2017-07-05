@@ -1,0 +1,2 @@
+javac -s .\src -cp .\lib\super-csv-2.3.1.jar -d .\build .\src\dz\analyzers\ReviewsCSV.java .\src\dz\analyzers\ReviewAnalysisEngine.java .\src\dz\analyzers\ReviewAnalyzer.java 
+java -cp .\build;.\lib\super-csv-2.3.1.jar dz.analyzers.ReviewAnalyzer

@@ -10,9 +10,8 @@ To build and run the project:-
 
 The analyzer output is written to file: reviewAnalyzer.txt
 
-Known Issues
-------------
-Sorting of word occurrence coun is done descending according to number of occurences, and not alphabetically.
+Known Issue
+-----------
 
 In the word occurrence count, certain words, that contain punctuation, are split up into two artifial "words" when this is one word.
 For example "don't" is split up so that "don" is counted and the letter "t" is counted separately.
